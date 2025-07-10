@@ -1,7 +1,7 @@
 import "./Grid.css";
 const Grid = () => {
   return (
-    <section class="pet-grid">
+    <section className="pet-grid">
       <div>1</div>
       <div>2</div>
       <div>3</div>
