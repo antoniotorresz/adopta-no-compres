@@ -1,0 +1,13 @@
+.layout {
+    width: 100%;
+
+    display: grid;
+    grid:
+        "header" auto "main" 1fr "footer" auto / 1fr;
+    gap: 8px;
+}
+
+.main {
+    grid-area: main;
+    background-color: greenyellow;
+}

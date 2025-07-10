@@ -1,0 +1,12 @@
+.pet-grid {
+    width: 100%;
+
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.pet-grid div {
+    border: 1px;
+}
