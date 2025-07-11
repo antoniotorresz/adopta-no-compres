@@ -1,11 +1,11 @@
 import "./Layout.css";
-import Header from "./Header";
+import Header from "./Navbar";
 import Footer from "./Footer";
 const Layout = ({ children }) => {
   return (
     <section className="layout">
       <Header />
-      <div className="main">{children}</div>
+      <section className="main">{children}</section>
       <Footer />
     </section>
   );
