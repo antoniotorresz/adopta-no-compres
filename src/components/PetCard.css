@@ -75,11 +75,10 @@
 .adopt-button {
   width: 100%;
   padding: 0.75rem;
-  background: var(--primary);
-  color: --var(--primary);
-  border: 1px solid --var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--text-color-white);
   border-radius: 8px;
-  font-weight: 600;
+  font-weight: bolder;
   cursor: pointer;
   transition: background 0.3s ease;
 }
