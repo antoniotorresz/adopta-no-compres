@@ -33,6 +33,9 @@ const Header = () => {
             <li>
               <Link to="/contact">Contacto</Link>
             </li>
+            <li>
+              <Link to="/about">Acerca de nosotros</Link>
+            </li>
           </ul>
         </nav>
 
@@ -62,6 +65,11 @@ const Header = () => {
           <li>
             <Link to="/contact" onClick={toggleMobileMenu}>
               Contacto
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" onClick={toggleMobileMenu}>
+              Acerca de nosotros
             </Link>
           </li>
         </ul>
