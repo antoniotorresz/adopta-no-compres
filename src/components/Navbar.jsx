@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import Image from "./Image";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,25 +15,23 @@ const Header = () => {
       <div className="header-container">
         {/* Logo */}
         <div className="logo-container">
-          <a href="/" className="logo-image">
+          <Link to="/" className="logo-image">
             <Image src={"/logo.png"} alt={"Adopta No Compres web"} />
-          </a>
-          <span className="logo-text">
-            Adopta No Compres
-          </span>
+          </Link>
+          <span className="logo-text">Adopta No Compres</span>
         </div>
 
         {/* Menú de navegación (desktop) */}
         <nav className="navbar">
           <ul className="nav-links">
             <li>
-              <a href="/">Inicio</a>
+              <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a href="/dar-en-adopcion">Dar en adopción</a>
+              <a href="/adopt">Dar en adopción</a>
             </li>
             <li>
-              <a href="/contacto">Contacto</a>
+              <Link to="/contact">Contacto</Link>
             </li>
           </ul>
         </nav>
@@ -44,7 +43,6 @@ const Header = () => {
           aria-label="Menú móvil"
         >
           <FaBars />{" "}
-          {/* Opcional: Reemplazar por <i className="fas fa-bars"></i> si no usas react-icons */}
         </button>
       </div>
 
@@ -52,14 +50,9 @@ const Header = () => {
       <div className={`mobile-menu ${isMobileMenuOpen ? "active" : ""}`}>
         <ul>
           <li>
-            <a href="/" onClick={toggleMobileMenu}>
+            <Link to="/" onClick={toggleMobileMenu}>
               Inicio
-            </a>
-          </li>
-          <li>
-            <a href="/adoptar" onClick={toggleMobileMenu}>
-              Adoptar
-            </a>
+            </Link>
           </li>
           <li>
             <a href="/dar-en-adopcion" onClick={toggleMobileMenu}>
@@ -67,9 +60,9 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="/contacto" onClick={toggleMobileMenu}>
+            <Link to="/contact" onClick={toggleMobileMenu}>
               Contacto
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
