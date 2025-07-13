@@ -28,23 +28,27 @@ const Grid = () => {
   };
 
   return (
-    <section className="pet-grid">
-      <SearchBar onSearchChange={handleSearchChange} />
-      {filteredPets.map((pet) => (
-        <PetCard
-          key={pet.id}
-          id={pet.id}
-          name={pet.name}
-          description={pet.description}
-          specie={pet.specie}
-          image={pet.image}
-        />
-      ))}
-      {filteredPets.length === 0 && (
-        <div className="no-results">
-          No se encontraron mascotas con "{searchTerm}"
-        </div>
-      )}
+    <section>
+      <section>
+        <SearchBar onSearchChange={handleSearchChange} />
+      </section>
+      <section className="pet-grid">
+        {filteredPets.map((pet) => (
+          <PetCard
+            key={pet.id}
+            id={pet.id}
+            name={pet.name}
+            description={pet.description}
+            specie={pet.specie}
+            image={pet.image}
+          />
+        ))}
+        {filteredPets.length === 0 && (
+          <div className="no-results">
+            No se encontraron mascotas con "{searchTerm}"
+          </div>
+        )}
+      </section>
     </section>
   );
 };
