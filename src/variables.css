@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #f67590; /* Azul similar a Tailwind */
+    --primary-color: #c41319;
     --text-color: #333;
     --bg-color: #fff;
-    --hover-color: #f67590;
+    --hover-color: #c41319;
   }

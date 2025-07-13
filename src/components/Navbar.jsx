@@ -29,9 +29,6 @@ const Header = () => {
               <a href="/">Inicio</a>
             </li>
             <li>
-              <a href="/adoptar">Adoptar</a>
-            </li>
-            <li>
               <a href="/dar-en-adopcion">Dar en adopción</a>
             </li>
             <li>

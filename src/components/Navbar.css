@@ -5,6 +5,8 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  min-width: 70%;
+  border-radius: 60px;
 }
 
 .header-container {
@@ -27,7 +29,7 @@
 }
 
 .logo-container .logo-text {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Navbar (desktop) */
