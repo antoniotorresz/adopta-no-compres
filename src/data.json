@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "William",
+        "description": "Wiliam es un perrito muy juguetón y enérgico, siempre te sabrá hacer reír, ya come croquetas solo. Y hace del baño en su lugar.",
+        "specie": "perro",
+        "image": "/williams.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Galleta",
+        "description": "Galleta es una gatita color amarillo que siempre tendrá una anécdota nueva para ti, le gusta mucho jugar con la bola de estambre.",
+        "specie": "gato",
+        "image": "/galleta.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Kilian",
+        "description": "Kilian es una tortuga demasiado veloz, llegará más rápido que muchas reformas laborales en nuestro bello México.",
+        "specie": "tortuga",
+        "image": "https://i.imgur.com/5q090F5.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Bingo",
+        "description": "Bingo es un conejo enano que adora mordisquear zanahorias y correr en círculos a alta velocidad.",
+        "specie": "conejo",
+        "image": "https://images.unsplash.com/photo-1556838803-cc94986cb631?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Toby",
+        "description": "Toby es un golden retriever que adora el agua. Será tu compañero ideal en la playa o alberca.",
+        "specie": "perro",
+        "image": "https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=500"
+    },
+    {
+        "id": 6,
+        "name": "Cleo",
+        "description": "Cleo es una gata esfinge (sin pelo) que busca calor humano constantemente. Perfecta para alérgicos.",
+        "specie": "gato",
+        "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        "id": 7,
+        "name": "Thor",
+        "description": "Thor es un perro husky con ojos azules hipnotizantes. Necesita espacio para correr.",
+        "specie": "perro",
+        "image": "https://images.pexels.com/photos/1458916/pexels-photo-1458916.jpeg?auto=compress&cs=tinysrgb&w=500"
+    },
+    {
+        "id": 8,
+        "name": "Rocky",
+        "description": "Rocky es un perro bulldog francés que adora los mimos en el sofá. Ronca como un humano.",
+        "specie": "perro",
+        "image": "https://images.unsplash.com/photo-1633722715463-d30f4f325e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        "id": 9,
+        "name": "Pacho",
+        "description": "Pacho es un perro salchicha con energía inagotable. Ideal para familias activas.",
+        "specie": "perro",
+        "image": "https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=500"
+    },
+    {
+        "id": 10,
+        "name": "Luna",
+        "description": "Luna es una perrita mestiza con ojos brillantes como la luna llena. Adora los paseos al atardecer.",
+        "specie": "perro",
+        "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=500"
+    }
+]

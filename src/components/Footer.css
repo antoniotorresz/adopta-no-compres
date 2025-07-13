@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 60px;
     height: 4rem;
     padding-top: 1rem;
 }
@@ -54,8 +53,7 @@
 
 @media (max-width: 768px) {
     .footer-nav {
-        flex-direction: column;
+        flex-direction: row;
         gap: 16px;
-        margin-top: 16px;
     }
 }

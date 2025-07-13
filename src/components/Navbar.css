@@ -5,8 +5,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  min-width: 70%;
-  border-radius: 60px;
+  width: 100%;
 }
 
 .header-container {
@@ -92,6 +91,9 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .header {
+    border-radius: 60px;
+  }
   .navbar {
     display: none;
     /* Oculta el menú desktop en móviles */

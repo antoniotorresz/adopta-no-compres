@@ -1,12 +1,24 @@
 .pet-grid {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 8px;
-    padding-top: 2rem;
-}
+    display: grid;
+    gap: 20px;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .pet-grid {
+    grid-template-columns: 1fr;
+  }
 
-.pet-grid div {
-    border: 1px solid black;
-    flex: 1 1 calc(33.33% - 8px);
-}
+  @media (min-width: 600px) {
+    .pet-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .pet-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
