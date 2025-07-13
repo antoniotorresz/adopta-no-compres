@@ -8,9 +8,8 @@ import Grid from './components/Grid';
 import Contact from './components/Contact';
 import About from './components/About';
 import Privacy from './components/Privacy';
-
 import reportWebVitals from './reportWebVitals';
-
+import PetDetail from './components/PetDetail';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -21,6 +20,7 @@ root.render(
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="pet/:id" element={<PetDetail />} />
         </Routes>
       </Layout>
     </BrowserRouter>
