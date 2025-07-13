@@ -6,6 +6,8 @@ import './index.css';
 import Layout from './components/Layout';
 import Grid from './components/Grid';
 import Contact from './components/Contact';
+import About from './components/About';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +18,7 @@ root.render(
         <Routes>
           <Route path="/" element={<Grid />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Layout>
     </BrowserRouter>
