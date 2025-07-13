@@ -1,6 +1,5 @@
 .search-container {
   width: 100%;
-  margin: 0 auto 1.5rem;
 }
 
 .search-form {
@@ -51,7 +50,6 @@
 @media (min-width: 768px) {
   .search-container {
     max-width: 600px;
-    margin: 0 auto 2rem;
   }
 
   .search-input {
