@@ -28,7 +28,7 @@ const Header = () => {
               <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a href="/adopt">Dar en adopción</a>
+            <Link to="/new">Dar en adopción</Link>
             </li>
             <li>
               <Link to="/contact">Contacto</Link>
@@ -58,9 +58,9 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <a href="/dar-en-adopcion" onClick={toggleMobileMenu}>
+          <Link to="/new" onClick={toggleMobileMenu}>
               Dar en adopción
-            </a>
+            </Link>
           </li>
           <li>
             <Link to="/contact" onClick={toggleMobileMenu}>
