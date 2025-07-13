@@ -20,14 +20,6 @@ const PetCard = ({ id, name, description, specie, image }) => {
   return (
     <div className="pet-card">
       <div className="pet-image-container">
-        {/* <img 
-          src={image} 
-          alt={name} 
-          className="pet-image"
-          onError={(e) => { 
-            e.target.src = 'https://placekitten.com/300/300'; // Fallback si la imagen no carga
-          }}
-        /> */}
         <Image src={image} alt={name} />
       </div>
       <div className="pet-info">
@@ -36,7 +28,7 @@ const PetCard = ({ id, name, description, specie, image }) => {
           <span className="pet-specie">{getSpecieIcon()} {specie}</span>
         </div>
         <p className="pet-description">{description}</p>
-        <button className="adopt-button">¡Quiero adoptar!</button>
+        <button className="adopt-button">Ver detalles</button>
       </div>
     </div>
   );

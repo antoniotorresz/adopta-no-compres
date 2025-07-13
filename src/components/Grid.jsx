@@ -28,8 +28,8 @@ const Grid = () => {
   };
 
   return (
-    <section>
-      <section>
+    <section className="pets-page">
+      <section className="search-container">
         <SearchBar onSearchChange={handleSearchChange} />
       </section>
       <section className="pet-grid">
