@@ -21,6 +21,7 @@
   width: 100%;
   height: 200px;
   overflow: hidden;
+  
 }
 
 .pet-image {
@@ -84,7 +85,7 @@
 }
 
 .adopt-button:hover {
-  background: var(--primary-hover);
+  background: var(--hover-color);
 }
 
 /* Responsive */

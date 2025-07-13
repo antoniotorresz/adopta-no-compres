@@ -1,0 +1,124 @@
+.privacy-container {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.privacy-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.privacy-header h1 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.last-updated {
+    color: var(--text-color-light);
+    font-size: 0.9rem;
+}
+
+.privacy-section {
+    margin-bottom: 2.5rem;
+}
+
+.privacy-section h2 {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.privacy-section h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.3rem;
+    height: 1.5rem;
+    width: 0.3rem;
+    background-color: var(--primary-color);
+}
+
+.privacy-section p {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.privacy-section ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.privacy-section li {
+    margin-bottom: 0.5rem;
+    color: var(--text-color-light);
+}
+
+.contact-section {
+    background-color: var(--bg-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.contact-section a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-section a:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+/* Tablet (768px en adelante) */
+@media (min-width: 768px) {
+    .privacy-container {
+        padding: 2rem;
+    }
+
+    .privacy-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .privacy-section h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Desktop (1024px en adelante) */
+@media (min-width: 1024px) {
+    .privacy-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+    }
+
+    .privacy-header {
+        margin-bottom: 3rem;
+    }
+
+    .privacy-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .privacy-section {
+        margin-bottom: 3rem;
+    }
+
+    .privacy-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .privacy-content {
+        padding: 0 1rem;
+    }
+}

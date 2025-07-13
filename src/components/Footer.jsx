@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
-        <span>© {new Date().getFullYear()} Adopta No Compres. Todos los derechos reservados.</span>
+        <span>{new Date().getFullYear()} Adopta No Compres. Una tarea de UNIR México.</span>
         <nav className="footer-nav">
           <Link to="/about">Acerca de nosotros</Link>
           <Link to="/contact">Contacto</Link>
-          <a href="/privacy">Privacidad</a>
+          <Link to="/privacy">Privacidad</Link>
         </nav>
     </footer>
   );

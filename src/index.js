@@ -7,6 +7,7 @@ import Layout from './components/Layout';
 import Grid from './components/Grid';
 import Contact from './components/Contact';
 import About from './components/About';
+import Privacy from './components/Privacy';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -19,6 +20,7 @@ root.render(
           <Route path="/" element={<Grid />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<Privacy />} />
         </Routes>
       </Layout>
     </BrowserRouter>
